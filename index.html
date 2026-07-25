@@ -3,103 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Super Fun 8 - Phonics Flashcards 兒童自然拼讀字卡</title>
-  <meta name="description" content="兒童英語自然拼讀單字字卡簡報，包含時間副詞、場所、職業與日常生活用品四大課程，搭配可愛卡通圖案、字母拼讀發音顏色標記與真人發音功能。">
-  <link rel="stylesheet" href="styles.css">
+  <title>Super Fun 8 教學功能卡牌傳送門</title>
+  <meta name="description" content="互動式教學工具入口網站，提供閃卡、拉霸機、文法、句型與閱讀理解挑戰。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="app-container">
-    <header class="app-header">
-      <h1 class="app-title">✨ Super Fun 8 ✨</h1>
-      <h2 class="app-subtitle" id="lesson-title">Lesson 1: Time Expressions</h2>
-      <p class="app-subtitle" id="lesson-subtitle" style="font-size: 1.1rem; margin-top: -15px; color: #546E7A; font-weight: 500;">跟著自然拼讀學時間副詞！</p>
+  <div class="portal-container">
+    <header class="portal-header">
+      <div class="header-badge">🚀 SPACE EXPLORATION 🌟</div>
+      <h1>Super Fun 8</h1>
+      <p class="subtitle">教學功能卡牌傳送門</p>
+      <div class="header-divider"></div>
     </header>
 
-    <!-- Lesson Select Buttons -->
-    <nav class="lesson-navigation">
-      <button class="tab-btn active" id="tab-lesson-1">Lesson 1</button>
-      <button class="tab-btn" id="tab-lesson-2">Lesson 2</button>
-      <button class="tab-btn" id="tab-lesson-3">Lesson 3</button>
-      <button class="tab-btn" id="tab-lesson-4">Lesson 4</button>
-    </nav>
+    <main class="cards-grid">
+      <!-- Card 1: 知識閃卡工具 -->
+      <a href="../../Flashcards/Super%20Fun%208/index.html" target="_blank" rel="noopener noreferrer" class="card card-flashcards">
+        <div class="card-glow"></div>
+        <div class="emoji-container">
+          <span class="emoji">💡</span>
+        </div>
+        <h2>知識閃卡工具</h2>
+        <p>透過記憶閃卡快速學習重點，高效複習與即時自我檢測！</p>
+        <span class="action-btn">開啟工具 🚀</span>
+      </a>
 
-    <!-- Phonics Color Coding Legend -->
-    <section class="phonics-legend" aria-label="發音分色圖例">
-      <div class="legend-item vowel">
-        <span class="color-dot"></span>
-        <span class="legend-text">母音/雙母音 (Vowels)</span>
-      </div>
-      <div class="legend-item blend">
-        <span class="color-dot"></span>
-        <span class="legend-text">混合子音 (Blends)</span>
-      </div>
-      <div class="legend-item digraph">
-        <span class="color-dot"></span>
-        <span class="legend-text">雙字母音 (Digraphs)</span>
-      </div>
-      <div class="legend-item consonant">
-        <span class="color-dot"></span>
-        <span class="legend-text">一般子音 (Consonants)</span>
-      </div>
-    </section>
+      <!-- Card 2: 單字拉霸機 -->
+      <a href="../../Words/Super%20Fun%208/index.html" target="_blank" rel="noopener noreferrer" class="card card-words">
+        <div class="card-glow"></div>
+        <div class="emoji-container">
+          <span class="emoji">🎰</span>
+        </div>
+        <h2>單字拉霸機</h2>
+        <p>趣味轉盤拉霸挑戰，隨機抽選核心單字，趣味拼寫與發音練習！</p>
+        <span class="action-btn">開啟工具 🚀</span>
+      </a>
 
-    <!-- Main Flashcard Component -->
-    <main class="flashcard-wrapper">
-      <div class="flashcard" id="flashcard" title="點擊卡片唸單字">
-        <!-- Top Section: Centered Image/SVG Container -->
-        <div class="card-top">
-          <div class="card-image-container" id="card-image-container">
-            <!-- Dynamic Image or inline SVG will be inserted here -->
-          </div>
+      <!-- Card 3: 互動式文法教學 -->
+      <a href="../../Grammar%20teaching/Super%20Fun%208/index.html" target="_blank" rel="noopener noreferrer" class="card card-grammar">
+        <div class="card-glow"></div>
+        <div class="emoji-container">
+          <span class="emoji">🗣️</span>
         </div>
-        
-        <!-- Middle Section: Segmented Phonics Word -->
-        <div class="card-middle">
-          <div class="word-container" id="word-container">
-            <!-- Dynamic letters will be inserted here -->
-          </div>
+        <h2>互動式文法教學</h2>
+        <p>生動的語音與多樣化互動關卡，輕鬆攻克英文句型核心文法！</p>
+        <span class="action-btn">開啟工具 🚀</span>
+      </a>
+
+      <!-- Card 4: 句型重組 -->
+      <a href="../../puzzles/Super%20Fun%208/index.html" target="_blank" rel="noopener noreferrer" class="card card-puzzles">
+        <div class="card-glow"></div>
+        <div class="emoji-container">
+          <span class="emoji">🧩</span>
         </div>
-        
-        <!-- Bottom Section: Chinese Translation Bubble -->
-        <div class="card-bottom">
-          <span class="translation-bubble" id="translation-text"></span>
+        <h2>句型重組</h2>
+        <p>動手拼出正確的英語句子，培養直覺式語感與精準寫作邏輯！</p>
+        <span class="action-btn">開啟工具 🚀</span>
+      </a>
+
+      <!-- Card 5: 文章閱讀 -->
+      <a href="../../Reading/Super%20Fun%208/index.html" target="_blank" rel="noopener noreferrer" class="card card-reading">
+        <div class="card-glow"></div>
+        <div class="emoji-container">
+          <span class="emoji">📖</span>
         </div>
-      </div>
+        <h2>文章閱讀</h2>
+        <p>挑選最合適的趣味主題文章，流暢閱讀以擴展背景知識與視野！</p>
+        <span class="action-btn">開啟工具 🚀</span>
+      </a>
+
+      <!-- Card 6: 閱讀理解大挑戰 -->
+      <a href="../../閱讀理解2/index.html" target="_blank" rel="noopener noreferrer" class="card card-comprehension">
+        <div class="card-glow"></div>
+        <div class="emoji-container">
+          <span class="emoji">🏆</span>
+        </div>
+        <h2>閱讀理解大挑戰</h2>
+        <p>深度閱讀測驗與邏輯思考大挑戰，趣味積分檢驗你的理解力！</p>
+        <span class="action-btn">開啟工具 🚀</span>
+      </a>
     </main>
 
-    <!-- Control Actions & Indicators -->
-    <footer class="app-controls">
-      <div class="control-buttons">
-        <button id="btn-prev" class="btn btn-secondary" title="上一張 (鍵盤 ←)">
-          <svg class="icon" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
-          <span class="btn-label-text">上一張</span>
-        </button>
-        <button id="btn-speak" class="btn btn-primary" title="發音 (鍵盤 Enter 或 Space)">
-          <svg class="icon icon-large" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
-          <span class="btn-label-text">聽單字</span>
-        </button>
-        <button id="btn-autoplay" class="btn btn-accent" title="自動撥放字卡（4秒間隔）">
-          <svg class="icon" viewBox="0 0 24 24" id="autoplay-icon"><path d="M8 5v14l11-7z"/></svg>
-          <span id="autoplay-text" class="btn-label-text">自動播放</span>
-        </button>
-        <button id="btn-next" class="btn btn-secondary" title="下一張 (鍵盤 →)">
-          <span class="btn-label-text">下一張</span>
-          <svg class="icon" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
-        </button>
-      </div>
-
-      <!-- Slide Indicators Dots -->
-      <div class="dots-indicators" id="dots-indicators">
-        <!-- Dynamically created dot indicators -->
-      </div>
-
-      <!-- Shortcut Keys Helper Tips -->
-      <div class="keyboard-tips">
-        💡 快捷鍵：← / → 切換字卡 | Space / Enter 播放單字發音
-      </div>
+    <footer class="portal-footer">
+      <p>© 2026 Super Fun 8 Launcher Portal • 設計專用於課堂互動教學</p>
     </footer>
   </div>
-
-  <script src="app.js"></script>
 </body>
 </html>
