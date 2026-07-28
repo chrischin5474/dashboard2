@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <rect width="220" height="220" rx="30" fill="#ECEFF1" />
+  <!-- Awning (Store Front theme) -->
+  <rect x="20" y="20" width="180" height="25" fill="#FF8A80" rx="3"/>
+  <path d="M 20 45 L 35 45 C 35 52, 20 52, 20 45 Z" fill="#FF8A80"/>
+  <path d="M 35 45 L 50 45 C 50 52, 35 52, 35 45 Z" fill="#FFFFFF"/>
+  <path d="M 50 45 L 65 45 C 65 52, 50 52, 50 45 Z" fill="#FF8A80"/>
+  <path d="M 65 45 L 80 45 C 80 52, 65 52, 65 45 Z" fill="#FFFFFF"/>
+  <path d="M 80 45 L 95 45 C 95 52, 80 52, 80 45 Z" fill="#FF8A80"/>
+  <path d="M 95 45 L 110 45 C 110 52, 95 52, 95 45 Z" fill="#FFFFFF"/>
+  <path d="M 110 45 L 125 45 C 125 52, 110 52, 110 45 Z" fill="#FF8A80"/>
+  <path d="M 125 45 L 140 45 C 140 52, 125 52, 125 45 Z" fill="#FFFFFF"/>
+  <path d="M 140 45 L 155 45 C 155 52, 140 52, 140 45 Z" fill="#FF8A80"/>
+  <path d="M 155 45 L 170 45 C 170 52, 155 52, 155 45 Z" fill="#FFFFFF"/>
+  <path d="M 170 45 L 185 45 C 185 52, 170 52, 170 45 Z" fill="#FF8A80"/>
+  <path d="M 185 45 L 200 45 C 200 52, 185 52, 185 45 Z" fill="#FFFFFF"/>
+  <!-- Shopping Cart Handle and Support -->
+  <path d="M50 100 L70 160 L155 160 L170 95 L180 95" fill="none" stroke="#5D4037" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cart Basket Grid (cute pink outline) -->
+  <rect x="70" y="95" width="85" height="50" rx="8" fill="#FFF9C4" stroke="#5D4037" stroke-width="3"/>
+  <line x1="90" y1="95" x2="90" y2="145" stroke="#5D4037" stroke-width="1.5"/>
+  <line x1="110" y1="95" x2="110" y2="145" stroke="#5D4037" stroke-width="1.5"/>
+  <line x1="130" y1="95" x2="130" y2="145" stroke="#5D4037" stroke-width="1.5"/>
+  <line x1="70" y1="112" x2="155" y2="112" stroke="#5D4037" stroke-width="1.5"/>
+  <line x1="70" y1="128" x2="155" y2="128" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Cute Gift Box inside cart -->
+  <rect x="85" y="70" width="30" height="25" rx="3" fill="#B2DFDB" stroke="#5D4037" stroke-width="2"/>
+  <path d="M100 70 L100 95 M85 82 L115 82" stroke="#FF8A80" stroke-width="2"/>
+  <circle cx="100" cy="70" r="4" fill="#FF8A80"/>
+  <!-- Another Shopping bag -->
+  <path d="M125 70 L145 70 L150 95 L120 95 Z" fill="#FFD54F" stroke="#5D4037" stroke-width="2"/>
+  <path d="M130 70 C130 63, 140 63, 140 70" fill="none" stroke="#5D4037" stroke-width="2"/>
+  <!-- Cute Face on Bag -->
+  <circle cx="132" cy="80" r="1.5" fill="#5D4037"/>
+  <circle cx="138" cy="80" r="1.5" fill="#5D4037"/>
+  <path d="M134 83 Q135 84 136 83" fill="none" stroke="#5D4037" stroke-width="1"/>
+  <!-- Wheels -->
+  <circle cx="85" cy="175" r="12" fill="#FFFFFF" stroke="#5D4037" stroke-width="3"/>
+  <circle cx="85" cy="175" r="4" fill="#5D4037"/>
+  <circle cx="140" cy="175" r="12" fill="#FFFFFF" stroke="#5D4037" stroke-width="3"/>
+  <circle cx="140" cy="175" r="4" fill="#5D4037"/>
+</svg>

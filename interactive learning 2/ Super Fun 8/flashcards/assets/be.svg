@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F8F5" />
+      <stop offset="100%" stop-color="#A3E4D7" />
+    </linearGradient>
+    <linearGradient id="butterfly" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D94" />
+      <stop offset="100%" stop-color="#FF99CC" />
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" rx="30" fill="url(#bg)" />
+  <!-- Leaf -->
+  <path d="M 30 160 C 60 120, 110 140, 110 180 C 80 180, 40 180, 30 160 Z" fill="#58D68D" />
+  <path d="M 30 160 Q 70 155, 110 180" stroke="#229954" stroke-width="2" fill="none" />
+  <!-- Caterpillar -->
+  <circle cx="50" cy="145" r="10" fill="#2ECC71" />
+  <circle cx="65" cy="148" r="9" fill="#2ECC71" />
+  <circle cx="78" cy="153" r="8" fill="#2ECC71" />
+  <circle cx="89" cy="160" r="7" fill="#2ECC71" />
+  <!-- Antennae -->
+  <line x1="48" y1="137" x2="43" y2="128" stroke="#27AE60" stroke-width="2" />
+  <line x1="52" y1="137" x2="57" y2="128" stroke="#27AE60" stroke-width="2" />
+  <!-- Butterfly -->
+  <!-- Wings Left -->
+  <path d="M 155 100 C 130 65, 115 95, 155 100 Z" fill="url(#butterfly)" />
+  <path d="M 155 100 C 135 125, 125 110, 155 100 Z" fill="#9B5DE5" />
+  <!-- Wings Right -->
+  <path d="M 155 100 C 180 65, 195 95, 155 100 Z" fill="url(#butterfly)" />
+  <path d="M 155 100 C 175 125, 185 110, 155 100 Z" fill="#9B5DE5" />
+  <!-- Butterfly Body -->
+  <rect x="152" y="75" width="6" height="40" rx="3" fill="#333333" />
+  <circle cx="155" cy="72" r="4" fill="#333333" />
+  <!-- Antennae -->
+  <path d="M 153 69 Q 145 60, 140 62" stroke="#333" stroke-width="1.5" fill="none" />
+  <path d="M 157 69 Q 165 60, 170 62" stroke="#333" stroke-width="1.5" fill="none" />
+</svg>

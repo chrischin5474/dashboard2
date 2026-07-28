@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE5E5" />
+      <stop offset="100%" stop-color="#FFCCCC" />
+    </linearGradient>
+    <linearGradient id="helmet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D4D" />
+      <stop offset="100%" stop-color="#CC0000" />
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" rx="30" fill="url(#bg)" />
+  <!-- Firefighter Helmet -->
+  <circle cx="110" cy="115" r="50" fill="url(#helmet)" />
+  <rect x="50" y="115" width="120" height="10" rx="5" fill="#B30000" />
+  <path d="M 75 115 A 35 35 0 0 1 145 115 Z" fill="#FF1A1A" />
+  <!-- Shield Badge -->
+  <path d="M 110 80 L 122 92 L 117 105 L 110 110 L 103 105 L 98 92 Z" fill="#FFD700" />
+  <circle cx="110" cy="95" r="4" fill="#FF8C00" />
+  <!-- Hose/Water nozzle -->
+  <rect x="135" y="130" width="15" height="40" rx="3" fill="#D3D3D3" transform="rotate(-30, 135, 130)" />
+  <path d="M 155 120 C 165 110, 180 110, 190 120" stroke="#4D96FF" stroke-width="6" fill="none" stroke-linecap="round" />
+  <!-- Sparkles/Fire -->
+  <path d="M 50 140 Q 40 120, 30 140 T 30 160 Z" fill="#FFA500" opacity="0.8" />
+  <path d="M 45 145 Q 38 132, 32 145 T 35 155 Z" fill="#FF4500" opacity="0.9" />
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2F0D9" />
+      <stop offset="100%" stop-color="#D0E9E3" />
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" rx="30" fill="url(#bg)" />
+  <!-- Microphone -->
+  <rect x="75" y="105" width="12" height="60" rx="6" fill="#333333" />
+  <rect x="68" y="90" width="26" height="15" rx="3" fill="#FF4D4D" />
+  <!-- "NEWS" text on mic flag -->
+  <text x="81" y="101" font-family="'Fredoka', sans-serif" font-weight="900" font-size="8" fill="#FFFFFF" text-anchor="middle">NEWS</text>
+  <circle cx="81" cy="70" r="22" fill="#E6E6E6" stroke="#999999" stroke-width="1.5" />
+  <path d="M 68 70 L 94 70 M 81 57 L 81 83" stroke="#CCCCCC" stroke-width="1.5" />
+  <!-- Notepad -->
+  <rect x="115" y="110" width="45" height="55" rx="5" fill="#FFFFFF" stroke="#999999" stroke-width="2" />
+  <!-- Spiral rings -->
+  <circle cx="123" cy="110" r="3" fill="#333" />
+  <circle cx="137" cy="110" r="3" fill="#333" />
+  <circle cx="151" cy="110" r="3" fill="#333" />
+  <!-- Lines -->
+  <line x1="123" y1="125" x2="151" y2="125" stroke="#CCCCCC" stroke-width="2" />
+  <line x1="123" y1="137" x2="151" y2="137" stroke="#CCCCCC" stroke-width="2" />
+  <line x1="123" y1="149" x2="143" y2="149" stroke="#CCCCCC" stroke-width="2" />
+</svg>

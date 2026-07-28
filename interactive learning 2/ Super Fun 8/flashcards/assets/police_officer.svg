@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D9EAFD" />
+      <stop offset="100%" stop-color="#B9D9EB" />
+    </linearGradient>
+    <linearGradient id="badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE87C" />
+      <stop offset="100%" stop-color="#FFD700" />
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" rx="30" fill="url(#bg)" />
+  <!-- Police Hat -->
+  <path d="M 60 115 C 60 80, 160 80, 160 115 Z" fill="#1C3879" />
+  <path d="M 50 115 L 170 115 L 165 123 L 55 123 Z" fill="#0F1A3A" />
+  <path d="M 70 123 C 90 140, 130 140, 150 123 Z" fill="#111" />
+  <!-- Gold Badge -->
+  <path d="M 110 90 L 120 100 L 115 112 L 110 115 L 105 112 L 100 100 Z" fill="url(#badge)" stroke="#E6B800" stroke-width="1.5" />
+  <circle cx="110" cy="103" r="3" fill="#0F1A3A" />
+  <!-- Whistle -->
+  <path d="M 50 150 L 70 150 L 70 160 L 60 160 Z" fill="#D3D3D3" />
+  <circle cx="50" cy="150" r="5" fill="#D3D3D3" />
+</svg>
