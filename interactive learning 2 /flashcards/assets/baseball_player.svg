@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2F0D9" />
+      <stop offset="100%" stop-color="#C5E0B4" />
+    </linearGradient>
+    <linearGradient id="bat" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F4D068" />
+      <stop offset="100%" stop-color="#C79830" />
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" rx="30" fill="url(#bg)" />
+  <!-- Baseball Bat -->
+  <rect x="50" y="150" width="130" height="14" rx="4" fill="url(#bat)" transform="rotate(-45, 50, 150)" />
+  <rect x="42" y="148" width="10" height="18" rx="2" fill="#8C6615" transform="rotate(-45, 50, 150)" />
+  <!-- Baseball Ball -->
+  <circle cx="140" cy="90" r="30" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2" />
+  <!-- Stitchings -->
+  <path d="M 120 75 Q 135 90, 120 105" fill="none" stroke="#FF4D4D" stroke-width="2" stroke-dasharray="2,2" />
+  <path d="M 160 75 Q 145 90, 160 105" fill="none" stroke="#FF4D4D" stroke-width="2" stroke-dasharray="2,2" />
+  <!-- Motion Lines -->
+  <path d="M 80 80 C 90 70, 105 75, 110 80" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+  <path d="M 85 95 C 95 85, 110 90, 115 95" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+</svg>

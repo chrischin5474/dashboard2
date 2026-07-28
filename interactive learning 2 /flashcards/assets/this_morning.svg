@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="100%" height="100%">
+  <!-- Definitions for Gradients and Filters -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A0C4FF" />
+      <stop offset="60%" stop-color="#FDFFB6" />
+      <stop offset="100%" stop-color="#FFD6A5" />
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFADAD" />
+      <stop offset="70%" stop-color="#FFD6A5" />
+      <stop offset="100%" stop-color="#FFC6FF" />
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="220" height="220" rx="20" fill="url(#skyGrad)" />
+
+  <!-- Sun -->
+  <circle cx="110" cy="90" r="45" fill="url(#sunGrad)" filter="url(#shadow)" />
+  
+  <!-- Sun Rays -->
+  <g stroke="#FFF" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <line x1="110" y1="30" x2="110" y2="40" />
+    <line x1="110" y1="140" x2="110" y2="150" />
+    <line x1="50" y1="90" x2="60" y2="90" />
+    <line x1="160" y1="90" x2="170" y2="90" />
+    <line x1="68" y1="48" x2="75" y2="55" />
+    <line x1="145" y1="125" x2="152" y2="132" />
+    <line x1="152" y1="48" x2="145" y2="55" />
+    <line x1="75" y1="125" x2="68" y2="132" />
+  </g>
+
+  <!-- Sun Smile Face -->
+  <circle cx="95" cy="85" r="3" fill="#2C3E50" />
+  <circle cx="125" cy="85" r="3" fill="#2C3E50" />
+  <!-- Rosy Cheeks -->
+  <circle cx="90" cy="92" r="4" fill="#FF85A1" opacity="0.6" />
+  <circle cx="130" cy="92" r="4" fill="#FF85A1" opacity="0.6" />
+  <!-- Smile -->
+  <path d="M 103,93 A 7,7 0 0,0 117,93" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Green Hills -->
+  <path d="M -10,220 C 50,180 80,200 130,170 C 180,140 210,180 240,220 Z" fill="#CAFFBF" />
+  <path d="M 60,220 C 110,190 150,180 200,200 C 220,210 230,215 240,220 Z" fill="#94D2BD" opacity="0.8" />
+
+  <!-- Cute Singing Bird -->
+  <g transform="translate(130, 135)" filter="url(#shadow)">
+    <!-- Bird Body -->
+    <path d="M 0,15 C 10,0 25,0 35,10 C 45,20 40,35 25,40 C 10,45 -5,30 0,15 Z" fill="#FFD6A5" />
+    <!-- Bird Belly -->
+    <circle cx="18" cy="25" r="10" fill="#FFF" opacity="0.9" />
+    <!-- Bird Eye -->
+    <circle cx="28" cy="18" r="2" fill="#2C3E50" />
+    <!-- Bird Beak -->
+    <path d="M 32,16 L 38,19 L 32,22 Z" fill="#FFADAD" />
+    <!-- Bird Wing -->
+    <path d="M 10,20 C 5,23 5,28 10,30 C 15,31 18,25 10,20 Z" fill="#FF9F1C" />
+    <!-- Music Notes -->
+    <path d="M 38,5 Q 43,2 45,7 M 45,7 L 45,2 Q 48,0 50,3" fill="none" stroke="#FF85A1" stroke-width="2" stroke-linecap="round" />
+    <circle cx="43" cy="7" r="2" fill="#FF85A1" />
+    <circle cx="48" cy="3" r="2" fill="#FF85A1" />
+  </g>
+
+  <!-- Clouds -->
+  <g fill="#FFF" opacity="0.9">
+    <!-- Cloud Left -->
+    <path d="M 15,130 C 15,120 25,115 35,120 C 40,115 50,115 55,120 C 65,120 65,130 60,135 C 65,145 45,145 35,140 C 25,145 15,140 15,130 Z" />
+    <!-- Cloud Right -->
+    <path d="M 160,60 C 160,53 167,50 173,53 C 177,50 183,50 187,53 C 193,53 193,60 190,63 C 193,70 180,70 173,67 C 167,70 160,67 160,60 Z" />
+  </g>
+</svg>

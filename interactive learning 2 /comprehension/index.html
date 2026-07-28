@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Fun 8 English Reading Comprehension Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <span class="logo-badge">SUPER FUN 8</span>
+            <span class="logo-badge" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); box-shadow: none;">QUIZ APP</span>
+        </div>
+        <div style="margin-bottom: 1rem;">
+            <a href="../index.html" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px; padding: 6px 16px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.05); color: #f8fafc; font-size: 0.9rem; font-weight: 500; transition: var(--transition-smooth); cursor: pointer;" onmouseover="this.style.background='rgba(255,255,255,0.12)'; this.style.borderColor='rgba(255,255,255,0.3)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.15)'">
+                🏠 返回傳送門
+            </a>
+        </div>
+        <h1>英文閱讀理解測驗</h1>
+        <p class="subtitle">根據故事內容，挑戰您的英文閱讀與理解能力。點擊下方主題開始測驗！</p>
+    </header>
+
+    <main>
+        <!-- Home / Selection View -->
+        <section id="home-view" class="glass-card">
+            <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; text-align: center;">選擇測驗主題</h2>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; text-align: center; margin-bottom: 1.5rem;">每個主題包含 12 題選擇題，考驗您的故事細節記憶與閱讀理解。</p>
+            
+            <div class="topics-grid">
+                <!-- Topic 1 Card -->
+                <div id="topic-1-card" class="glass-card topic-card topic-1">
+                    <div class="topic-card-content">
+                        <div class="topic-meta">Topic 1</div>
+                        <h3 class="topic-title">Story Time (Mike's Glasses)</h3>
+                        <p class="topic-desc">跟隨 Mike、Tess 與 Ken 尋找遺失的眼鏡，探討暴龍牙齒、科學實驗室機器人、熱食起霧與黑暗中騎車的故事。</p>
+                    </div>
+                    <div class="topic-card-footer">
+                        <span class="topic-tag">12 Questions</span>
+                        <div class="play-btn-circle">
+                            <span class="icon-play"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Topic 2 Card -->
+                <div id="topic-2-card" class="glass-card topic-card topic-2">
+                    <div class="topic-card-content">
+                        <div class="topic-meta">Topic 2 & World Bicycle Day</div>
+                        <h3 class="topic-title">Careers & Warrior Adventure</h3>
+                        <p class="topic-desc">探討棒球選手與 YouTuber 的職涯夢想、原住民小勇士活動（竹筒飯與砍竹子）、Emma 的歌唱夢，以及世界自行車日和農場之旅。</p>
+                    </div>
+                    <div class="topic-card-footer">
+                        <span class="topic-tag">12 Questions</span>
+                        <div class="play-btn-circle" style="background: var(--secondary-color); box-shadow: 0 4px 12px var(--secondary-glow);">
+                            <span class="icon-play"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Screen View -->
+        <section id="quiz-view" class="glass-card hidden">
+            <div class="quiz-header">
+                <div id="quiz-topic-title" class="quiz-topic-title">Topic 1: Story Time</div>
+                <div id="quiz-progress-text" class="quiz-progress-text">Question 1 of 12</div>
+            </div>
+            
+            <div class="progress-bar-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+
+            <div class="question-box">
+                <div id="question-en" class="question-text-en">What is the capital of France?</div>
+                <div id="question-zh" class="question-text-zh">法國的首都是哪裡？</div>
+            </div>
+
+            <div id="options-container" class="options-container">
+                <!-- Option Cards will be dynamically injected here -->
+            </div>
+
+            <!-- Explanation feedback box (hidden by default) -->
+            <div id="explanation-box" class="explanation-box hidden">
+                <div id="explanation-title" class="explanation-title">
+                    <span id="explanation-icon"></span>
+                    <span id="explanation-status-text"></span>
+                </div>
+                <div id="explanation-text" class="explanation-text"></div>
+            </div>
+
+            <div class="quiz-controls">
+                <button id="btn-exit" class="btn btn-danger">
+                    <span>Exit</span>
+                </button>
+                <div style="display: flex; gap: 0.75rem;">
+                    <button id="btn-prev" class="btn btn-outline" disabled>
+                        <span class="btn-icon-left">⇠</span> 前一題
+                    </button>
+                    <button id="btn-next" class="btn btn-outline">
+                        後一題 <span class="btn-icon-right">➔</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Screen View -->
+        <section id="results-view" class="glass-card hidden">
+            <div class="results-badge-container">
+                <div class="score-circle">
+                    <span id="score-val" class="score-val">0</span>
+                    <span id="score-total" class="score-total">/12</span>
+                </div>
+            </div>
+            <h2 id="result-headline" class="result-headline">測驗結束</h2>
+            <p id="result-feedback" class="result-feedback">您的得分結果與答題分析。</p>
+            
+            <div class="results-actions">
+                <button id="btn-restart" class="btn btn-primary">重新挑戰</button>
+                <button id="btn-home" class="btn btn-outline">回主題首頁</button>
+            </div>
+
+            <!-- Answers Review Section -->
+            <div class="review-section">
+                <h3 class="review-section-title">答題詳情回顧</h3>
+                <div id="review-list" class="review-list">
+                    <!-- Review cards will be generated here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Exit Confirmation Modal Dialog -->
+    <div id="exit-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-icon">⚠️</div>
+            <h3 class="modal-title">確定要退出嗎？</h3>
+            <p class="modal-desc">如果您現在退出測驗，您目前的作答進度將會遺失。</p>
+            <div class="modal-btns">
+                <button id="btn-cancel-exit" class="btn btn-outline">取消</button>
+                <button id="btn-confirm-exit" class="btn btn-primary" style="background: var(--danger-color); box-shadow: 0 4px 14px var(--danger-glow);">確定退出</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

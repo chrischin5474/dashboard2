@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <rect width="220" height="220" rx="30" fill="#E0F7FA" />
+  <!-- Floor -->
+  <rect x="0" y="170" width="220" height="50" fill="#BCAAA4"/>
+  <!-- Museum Display Stand -->
+  <rect x="50" y="130" width="120" height="40" rx="5" fill="#8D6E63" stroke="#5D4037" stroke-width="3"/>
+  <rect x="60" y="135" width="100" height="8" rx="2" fill="#D7CCC8"/>
+  <!-- Glass Case (Dashed highlight) -->
+  <rect x="55" y="45" width="110" height="85" fill="none" stroke="#80DEEA" stroke-width="2" stroke-dasharray="8 4"/>
+  <!-- Cute Dinosaur Fossil / Skeleton (Mini T-Rex) -->
+  <!-- Skull -->
+  <rect x="120" y="65" width="28" height="20" rx="6" fill="#F5F5F5" stroke="#5D4037" stroke-width="2.5"/>
+  <circle cx="138" cy="72" r="2.5" fill="#5D4037"/>
+  <line x1="120" y1="80" x2="148" y2="80" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Spine/Body -->
+  <path d="M80 110 Q100 90 125 80" fill="none" stroke="#5D4037" stroke-width="3"/>
+  <!-- Ribs -->
+  <line x1="95" y1="97" x2="90" y2="115" stroke="#5D4037" stroke-width="2" stroke-linecap="round"/>
+  <line x1="105" y1="92" x2="100" y2="112" stroke="#5D4037" stroke-width="2" stroke-linecap="round"/>
+  <line x1="115" y1="87" x2="110" y2="107" stroke="#5D4037" stroke-width="2" stroke-linecap="round"/>
+  <!-- Tail -->
+  <path d="M80 110 Q65 112 58 100" fill="none" stroke="#5D4037" stroke-width="3" stroke-linecap="round"/>
+  <!-- Legs -->
+  <line x1="90" y1="110" x2="90" y2="130" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="90" y1="130" x2="98" y2="130" stroke="#5D4037" stroke-width="2" stroke-linecap="round"/>
+  <line x1="110" y1="105" x2="110" y2="130" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="110" y1="130" x2="118" y2="130" stroke="#5D4037" stroke-width="2" stroke-linecap="round"/>
+  <!-- Cute little spark/star -->
+  <path d="M158 52 L160 58 L166 60 L160 62 L158 68 L156 62 L150 60 L156 58 Z" fill="#FFF59D"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <rect width="220" height="220" rx="30" fill="#FFF5F5" />
+  <!-- Hill/Ground -->
+  <path d="M-10 180 Q110 160 230 180 L230 220 L-10 220 Z" fill="#E8F5E9"/>
+  <!-- Tree -->
+  <rect x="35" y="120" width="10" height="50" rx="4" fill="#8D6E63"/>
+  <circle cx="40" cy="110" r="25" fill="#A5D6A7"/>
+  <circle cx="55" cy="105" r="20" fill="#81C784"/>
+  <!-- House Body -->
+  <rect x="90" y="100" width="80" height="70" rx="10" fill="#FFE082" stroke="#5D4037" stroke-width="3"/>
+  <!-- Roof -->
+  <polygon points="80,105 130,55 180,105" fill="#FF8A80" stroke="#5D4037" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Chimney -->
+  <rect x="145" y="65" width="15" height="20" fill="#FF8A80" stroke="#5D4037" stroke-width="3"/>
+  <!-- Smoke -->
+  <circle cx="152" cy="50" r="6" fill="#CFD8DC"/>
+  <circle cx="158" cy="40" r="4" fill="#ECEFF1"/>
+  <!-- Door -->
+  <rect x="115" y="130" width="25" height="40" rx="5" fill="#90CAF9" stroke="#5D4037" stroke-width="3"/>
+  <circle cx="122" cy="150" r="2.5" fill="#FFD54F"/>
+  <!-- Window -->
+  <rect x="100" y="110" width="20" height="20" rx="4" fill="#FFF59D" stroke="#5D4037" stroke-width="3"/>
+  <line x1="110" y1="110" x2="110" y2="130" stroke="#5D4037" stroke-width="1.5"/>
+  <line x1="100" y1="120" x2="120" y2="120" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Cute Face on House -->
+  <circle cx="150" cy="120" r="2" fill="#5D4037"/>
+  <circle cx="160" cy="120" r="2" fill="#5D4037"/>
+  <path d="M153 124 Q155 126 157 124" fill="none" stroke="#5D4037" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="148" cy="122" r="2" fill="#FF8A80" opacity="0.6"/>
+  <circle cx="162" cy="122" r="2" fill="#FF8A80" opacity="0.6"/>
+</svg>

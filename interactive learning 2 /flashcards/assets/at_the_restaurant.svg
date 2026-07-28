@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <rect width="220" height="220" rx="30" fill="#FFF3E0" />
+  <!-- Table cloth pattern in background (lower part) -->
+  <rect x="0" y="150" width="220" height="70" fill="#FFAB91"/>
+  <!-- Table Leg -->
+  <rect x="102" y="150" width="16" height="50" fill="#8D6E63" stroke="#5D4037" stroke-width="3"/>
+  <!-- Table Base -->
+  <path d="M80 200 L140 200 L130 207 L90 207 Z" fill="#8D6E63" stroke="#5D4037" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Table Top -->
+  <ellipse cx="110" cy="148" rx="75" ry="15" fill="#FFE082" stroke="#5D4037" stroke-width="3"/>
+  <!-- Plate -->
+  <ellipse cx="110" cy="146" rx="42" ry="10" fill="#FFFFFF" stroke="#5D4037" stroke-width="2"/>
+  <!-- Cute Cake/Food -->
+  <rect x="90" y="115" width="40" height="25" rx="4" fill="#FF8A80" stroke="#5D4037" stroke-width="2"/>
+  <!-- Icing/Cream on top -->
+  <path d="M90 120 Q100 125 110 120 Q120 125 130 120" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <!-- Cherry on top -->
+  <circle cx="110" cy="110" r="5" fill="#FF1744"/>
+  <path d="M110 105 Q115 98 120 102" fill="none" stroke="#5D4037" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Steam lines -->
+  <path d="M100 95 Q98 90 100 85" fill="none" stroke="#FFAB91" stroke-width="2" stroke-linecap="round"/>
+  <path d="M110 93 Q108 88 110 83" fill="none" stroke="#FFAB91" stroke-width="2" stroke-linecap="round"/>
+  <path d="M120 95 Q118 90 120 85" fill="none" stroke="#FFAB91" stroke-width="2" stroke-linecap="round"/>
+  <!-- Fork and Spoon -->
+  <!-- Spoon (Left) -->
+  <path d="M50 148 Q50 142 55 142 Q60 142 60 148 Z M55 148 L55 162" fill="none" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Fork (Right) -->
+  <path d="M160 142 L160 148 M165 142 L165 148 M170 142 L170 148 M160 148 L170 148 M165 148 L165 162" fill="none" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Cute Face on Cake -->
+  <circle cx="102" cy="128" r="1.5" fill="#FFFFFF"/>
+  <circle cx="118" cy="128" r="1.5" fill="#FFFFFF"/>
+  <path d="M108 132 Q110 134 112 132" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+</svg>

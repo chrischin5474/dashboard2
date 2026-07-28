@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8E8F8" />
+      <stop offset="100%" stop-color="#D0D0F0" />
+    </linearGradient>
+    <linearGradient id="liquid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#4FACFE" />
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" rx="30" fill="url(#bg)" />
+  <!-- Bubbling Beaker / Flask -->
+  <!-- Neck -->
+  <rect x="98" y="70" width="24" height="40" rx="2" fill="#E6E6E6" stroke="#999999" stroke-width="3" />
+  <!-- Body -->
+  <path d="M 98 105 L 60 165 A 8 8 0 0 0 67 175 L 153 175 A 8 8 0 0 0 160 165 L 122 105 Z" fill="#E6E6E6" stroke="#999999" stroke-width="3" />
+  <!-- Liquid Inside -->
+  <path d="M 72 150 L 148 150 A 6 6 0 0 1 153 158 L 153 167 A 6 6 0 0 1 147 173 L 73 173 A 6 6 0 0 1 67 167 L 67 158 A 6 6 0 0 1 72 150 Z" fill="url(#liquid)" />
+  <!-- Bubbles -->
+  <circle cx="110" cy="135" r="6" fill="#00F2FE" opacity="0.8" />
+  <circle cx="95" cy="115" r="4" fill="#00F2FE" opacity="0.8" />
+  <circle cx="120" cy="95" r="5" fill="#00F2FE" opacity="0.8" />
+  <circle cx="104" cy="55" r="7" fill="#00F2FE" opacity="0.6" />
+  <circle cx="116" cy="40" r="4" fill="#00F2FE" opacity="0.5" />
+</svg>
